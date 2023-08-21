@@ -1,0 +1,154 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'HankenGrotesk-VariableFont_wght';
+    src: url(/fonts/HankenGrotesk-VariableFont_wght.ttf) ;
+  }
+  
+
+body{
+    font-family: HankenGrotesk-VariableFont_wght;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%); 
+}
+
+.Card{
+    box-shadow: 21px -10px 50px 7px rgba(0, 0, 0, 0.212);  
+    border-radius: 1.2em;
+    width: 650px;
+    background-color: var(--white);
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.result{
+    width:60%;
+    text-align: center;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #6743FF, #312CEA );    
+    border-radius: 1.2em;
+    padding: 5%;  
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+    color: rgba(219, 219, 219, 0.658);
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    font-size: 1.3rem;
+}
+
+.circle{
+    background: linear-gradient(to bottom, #4826D2, #4734F0);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 0.5rem;
+}
+.circle h1{
+    color: aliceblue;
+    font-size: 3rem;
+}
+.circle p{
+    color: rgba(219, 218, 218, 0.801);
+    font-size: 0.8rem;
+}
+
+.result b{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.info{
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.summary{
+    width:80%;
+    gap: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #ffffff, #fdfdfd );    
+    padding: 5%;
+}
+.summary .title{
+    color: rgb(71, 71, 71);
+    display: flex;
+    justify-content: left;
+    font-size: large;
+}
+
+.rows{
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+
+.badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.row:nth-child(1){
+    background-color: hsla(0, 100%, 50%, 0.164);
+
+}
+.row:nth-child(2){
+    background-color: hsla(56, 100%, 50%, 0.315);
+
+}
+.row:nth-child(3){
+    background-color: hsla(106, 100%, 50%, 0.123);
+
+}
+.row:nth-child(4){
+    background-color: hsla(249, 100%, 50%, 0.075);
+
+}
+
+button{
+    padding: 1rem;
+    border: none;
+    border-radius: 50px;
+    font-size: large;
+    color: #fdfdfd;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #4826D2, #4734F0);
+}
+
+button:hover{
+    background: linear-gradient(to bottom, #46415a, #37335f);
+}
+
+
+
